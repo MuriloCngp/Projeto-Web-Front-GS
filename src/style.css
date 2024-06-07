@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+body {
+    font-family: 'Fjalla One', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../src/assets/mar-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+header {
+    background-color: #050772;
+    padding: 20px 0;
+    font-family: 'Reddit Sans Condensed', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #80deea;
+}
+
+main {
+    padding: 20px;
+    margin-top: 60px; /* Espaço para o header fixo */
+}
+
+section {
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    color: #020000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.problema {
+    background-color: #01579b; /* Azul escuro */
+}
+
+section.tecnologia {
+    background-color: #0277bd; /* Azul médio */
+}
+
+section.objetivos {
+    background-color: #0288d1; /* Azul claro */
+}
+
+section.publico {
+    background-color: #039be5; /* Azul celeste */
+}
+
+section.beneficios {
+    background-color: #03a9f4; /* Azul aquático */
+}
+
+section.diaadia {
+    background-color: #4fc3f7; /* Azul muito claro */
+}
+
+section.carrossel {
+    background-color: #00bcd4; /* Azul vibrante */
+    position: relative;
+}
+
+.carousel, .carousel-2 {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-images, .carousel-2 .carousel-images {
+    display: flex;
+    white-space: nowrap;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img, .carousel-2 .carousel-images img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.carousel-button, .carousel-button-2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.carousel-button.prev, .carousel-button-2.prev {
+    left: 10px;
+}
+
+.carousel-button.next, .carousel-button-2.next {
+    right: 10px;
+}
+
+section.contato {
+    background-color: #26c6da; /* Azul claro */
+}
+
+form {
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #004d40;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #80deea;
+}
+
+footer {
+    background-color: #050772;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .carousel-images img {
+        max-width: 100%;
+    }
+}
