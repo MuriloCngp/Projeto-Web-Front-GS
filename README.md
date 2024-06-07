@@ -7,8 +7,8 @@ O projeto de Front-end-Design e Web Development da GRM Solutions visa utilizar t
 O projeto faz parte da Global Solution, uma iniciativa focada em resolver problemas globais através de soluções tecnológicas inovadoras.
 
 ## Equipe
-- **Murilo Cordeiro**
-- **Geronimo Augusto**
+- **Murilo Cordeiro 556727**
+- **Geronimo Augusto 557170**
 - Engenharia de Software pela FIAP
 
 ## Estrutura do Projeto
