@@ -3,6 +3,7 @@
 ## Descrição
 O projeto de Front-end-Design e Web Development da GRM Solutions visa utilizar tecnologia para preservar os mares brasileiros, principalmente no nordeste. O objetivo é permitir que os moradores que utilizam esses mares e rios possam usufruir e aproveitar sem explorá-los ou sofrer prejuízos com a poluição e o descuido. Também priorizamos a preservação de corais, combate à pesca ilegal e buscamos expandir nossas atividades para fora do país.
 Link do site: https://murilocngp.github.io/Projeto-Web-Front-GS/
+repositório: https://github.com/MuriloCngp/Projeto-Web-Front-GS.git
 
 ## Objetivo do Projeto
 O projeto faz parte da Global Solution, uma iniciativa focada em resolver problemas globais através de soluções tecnológicas inovadoras.
